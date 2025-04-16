@@ -14,7 +14,7 @@ function updateAge() {
     age--;
   }
 
-  ageParagraph.textContent += ` ${age}`;
+  ageParagraph.innerHTML += `<b>Age:</b> ${age}`;
 }
 
 updateAge();
