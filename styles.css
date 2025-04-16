@@ -5,3 +5,9 @@
   --accent-Or-Links: #005f99;
   --border-Or-Divider: #e0e0e0;
 }
+
+body {
+  font-family: inter;
+  background-color: var(--bg);
+  color: var(--primaryText);
+}
