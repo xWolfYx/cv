@@ -19,3 +19,7 @@ a:active {
   color: var(--accent-Or-Links);
   text-decoration: none;
 }
+
+body > section:not(:last-of-type) {
+  border-bottom: 1px solid black;
+}
