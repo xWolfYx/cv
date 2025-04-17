@@ -85,6 +85,7 @@ a {
   top: 0;
   left: 0;
   background-color: #1a1a1ac4;
+  display: flex;
 }
 
 .full-img img {
@@ -92,8 +93,6 @@ a {
   margin: auto;
   max-height: 80%;
   max-width: 80%;
-  position: relative;
-  top: 10%;
 }
 
 @media (min-width: 426px) {
