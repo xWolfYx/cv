@@ -14,8 +14,13 @@
   margin: 0;
 }
 
-*:not(a) {
+* {
   cursor: default;
+}
+
+a,
+#img {
+  cursor: pointer;
 }
 
 body {
