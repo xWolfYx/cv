@@ -22,6 +22,14 @@
   padding: 40px;
 }
 
+#img {
+  width: 75%;
+  max-width: 25%;
+  float: right;
+  position: relative;
+  top: -79px;
+  right: -40px;
+}
 body {
   font-family: "Inter";
   background-color: var(--bg);
