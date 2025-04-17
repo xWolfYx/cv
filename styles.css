@@ -25,6 +25,15 @@ body {
   border-bottom: 1px solid black;
 }
 
+#main > section {
+  padding: 2rem 0;
+}
+
+section > ul > li {
+  list-style-type: none;
+  padding-left: 5%;
+}
+
 #main {
   background-color: white;
   min-width: 300px;
