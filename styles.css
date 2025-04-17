@@ -73,13 +73,17 @@ a {
   box-shadow: 0px 0px 5px rgb(201, 201, 201);
 }
 
-@media screen and (min-width: 426px) {
+@media (min-width: 426px) {
+  section > ul > li {
+    list-style-type: none;
+    margin: 0.5vh 1rem;
+  }
   #personal-info {
     position: relative;
   }
   #img {
     width: 35%;
-    max-width: 250px;
+    max-width: 210px;
     position: absolute;
     right: 0;
     top: 0;
