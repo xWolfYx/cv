@@ -72,3 +72,16 @@ a {
   margin-right: 20px;
   box-shadow: 0px 0px 5px rgb(201, 201, 201);
 }
+
+@media screen and (min-width: 426px) {
+  #personal-info {
+    position: relative;
+  }
+  #img {
+    width: 35%;
+    max-width: 250px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
