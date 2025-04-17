@@ -22,7 +22,7 @@ body {
 }
 
 #main > section:not(:last-of-type) {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--border-Or-Divider);
 }
 
 #main > section {
