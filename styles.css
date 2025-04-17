@@ -96,10 +96,33 @@ a {
 }
 
 @media (min-width: 426px) {
-  section > ul > li {
+  #skills ul {
+    display: flex;
+  }
+
+  #skills li {
     list-style-type: none;
     margin: 0.5vh 1rem;
+    padding-right: 1rem;
+    margin-right: 0;
   }
+
+  #languages li,
+  #hobbies li {
+    list-style-type: none;
+    margin: 0.5vh 1rem;
+    padding-right: 1rem;
+    margin-right: 0;
+  }
+
+  #skills li:not(:last-child) {
+    border-right: 1px solid black;
+  }
+
+  #skills h3 {
+    margin: 2vh 0;
+  }
+
   #personal-info {
     position: relative;
   }
