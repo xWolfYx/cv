@@ -23,3 +23,7 @@ a:active {
 body > section:not(:last-of-type) {
   border-bottom: 1px solid black;
 }
+
+#summary {
+  text-align: justify;
+}
