@@ -60,3 +60,8 @@ a {
 #summary {
   text-align: justify;
 }
+
+#summary,
+#personal-info {
+  line-height: 1.5rem;
+}
