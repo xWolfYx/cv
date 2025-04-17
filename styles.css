@@ -14,6 +14,17 @@
   margin: 0;
 }
 
+body {
+  font-family: "Inter";
+  background-color: var(--bg);
+  color: var(--primaryText);
+  background-color: #1a1a1a;
+}
+
+#main > section:not(:last-of-type) {
+  border-bottom: 1px solid black;
+}
+
 #main {
   background-color: white;
   min-width: 300px;
@@ -30,12 +41,6 @@
   top: -79px;
   right: -40px;
 }
-body {
-  font-family: "Inter";
-  background-color: var(--bg);
-  color: var(--primaryText);
-  background-color: #1a1a1a;
-}
 
 a:link,
 a:visited,
@@ -43,10 +48,6 @@ a:hover,
 a:active {
   color: var(--accent-Or-Links);
   text-decoration: none;
-}
-
-main > section:not(:last-of-type) {
-  border-bottom: 1px solid black;
 }
 
 #summary {
