@@ -43,12 +43,9 @@ section > ul > li {
 }
 
 #img {
-  width: 75%;
-  max-width: 25%;
-  float: right;
-  position: relative;
-  top: -79px;
-  right: -40px;
+  display: block;
+  margin: 2rem auto;
+  width: 96%;
 }
 
 a:link,
