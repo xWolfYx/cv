@@ -14,6 +14,10 @@
   margin: 0;
 }
 
+*:not(a) {
+  cursor: default;
+}
+
 body {
   font-family: "Inter";
   background-color: var(--bg);
@@ -50,6 +54,7 @@ section > ul > li {
   display: block;
   margin: 2rem auto;
   width: 96%;
+  box-shadow: 0 0 20px rgb(71, 71, 71);
 }
 
 a {
