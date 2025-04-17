@@ -18,3 +18,22 @@ function updateAge() {
 }
 
 updateAge();
+
+const img = document.getElementById("img");
+
+img.addEventListener("click", () => {
+  const main = document.getElementById("main");
+
+  const fullImgDiv = document.createElement("div");
+  main.appendChild(fullImgDiv);
+  fullImgDiv.setAttribute("class", "full-img");
+
+  const fullImg = document.createElement("img");
+  fullImgDiv.appendChild(fullImg);
+  fullImg.setAttribute("src", "img/avatar-img.jpg");
+  fullImg.setAttribute("alt", "Full Image");
+
+  fullImgDiv.addEventListener("click", () => {
+    fullImgDiv.remove();
+  });
+});
