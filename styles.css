@@ -31,7 +31,7 @@ body {
 
 section > ul > li {
   list-style-type: none;
-  padding-left: 5%;
+  margin: 0.5vh 3vw;
 }
 
 #main {
