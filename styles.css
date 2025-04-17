@@ -125,7 +125,7 @@ a {
   }
 
   #skills li:not(:last-child) {
-    border-right: 1px solid black;
+    border-right: 1px solid var(--border-Or-Divider);
   }
 
   #skills h3 {
