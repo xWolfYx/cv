@@ -7,9 +7,10 @@
 }
 
 body {
-  font-family: inter;
+  font-family: "Inter";
   background-color: var(--bg);
   color: var(--primaryText);
+  background-color: #1a1a1a;
 }
 
 a:link,
@@ -20,7 +21,7 @@ a:active {
   text-decoration: none;
 }
 
-body > section:not(:last-of-type) {
+main > section:not(:last-of-type) {
   border-bottom: 1px solid black;
 }
 
