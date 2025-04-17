@@ -71,6 +71,14 @@ a {
   line-height: 1.5rem;
 }
 
+#education {
+  line-height: 1.8rem;
+}
+
+#languages {
+  line-height: 2.5rem;
+}
+
 #languages img {
   width: 2rem;
   vertical-align: middle;
