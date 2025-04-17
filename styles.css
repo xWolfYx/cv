@@ -6,6 +6,14 @@
   --border-Or-Divider: #e0e0e0;
 }
 
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: "Inter";
   background-color: var(--bg);
