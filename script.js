@@ -30,7 +30,7 @@ img.addEventListener("click", () => {
 
   const fullImg = document.createElement("img");
   fullImgDiv.appendChild(fullImg);
-  fullImg.setAttribute("src", "img/avatar-img.jpg");
+  fullImg.setAttribute("src", "img/CVP-full.png");
   fullImg.setAttribute("alt", "Full Image");
 
   fullImgDiv.addEventListener("click", () => {
