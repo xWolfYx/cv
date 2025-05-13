@@ -116,6 +116,14 @@ a {
   max-width: 80%;
 }
 
+@media (max-width: 1200px) {
+  #main {
+    margin: auto;
+    border: none;
+    border-radius: 0;
+  }
+}
+
 @media (min-width: 426px) {
   #skills ul {
     display: flex;
