@@ -78,10 +78,19 @@ a {
   text-align: justify;
 }
 
-#summary,
 #personal-info,
+#summary,
+#projects,
 #hobbies {
   line-height: 1.5rem;
+}
+
+#projects li {
+  margin: 1rem 0;
+}
+
+#projects a {
+  font-weight: bold;
 }
 
 #education {
