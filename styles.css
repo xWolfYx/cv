@@ -125,6 +125,38 @@ a {
   max-width: 80%;
 }
 
+#experience {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 20px;
+}
+
+.job {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding-right: 70px;
+}
+
+.period {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.period-divider {
+  width: 1px;
+  height: 10px;
+  background-color: black;
+}
+
+.responsibilities li {
+  margin-left: 28px;
+}
+
 @media (max-width: 1200px) {
   #main {
     margin: auto;
