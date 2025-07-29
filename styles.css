@@ -95,6 +95,23 @@ a {
 
 #education {
   line-height: 1.8rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+#education > div {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#education > div:nth-of-type(n + 2) > .period {
+  margin-left: -23px;
 }
 
 #languages {
